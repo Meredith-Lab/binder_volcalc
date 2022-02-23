@@ -3,6 +3,6 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - conda-forge::openbabel
-  - bionconda::bioconductor-keggrest=1.34.0
-  - bioconda::bioconductor-chemminer=3.46.0
+  - openbabel
+  - keggrest
+  - chemminer
