@@ -1,5 +1,8 @@
 name: ob-env
 channels:
   - conda-forge
+  - bioconda
 dependencies:
-  - openbabel
+  - conda-forge::openbabel
+  - bionconda::bioconductor-keggrest=1.34.0
+  - bioconda::bioconductor-chemminer=3.46.0
