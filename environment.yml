@@ -4,5 +4,6 @@ channels:
   - bioconda
 dependencies:
   - openbabel
+  - r-base=4.1
   - bioconductor-keggrest
   - bioconductor-chemminer
