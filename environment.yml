@@ -6,3 +6,4 @@ dependencies:
   - r-base=4.0.5
   - bioconductor-keggrest
   - bioconductor-chemminer
+  - bioconductor-chemmineob
