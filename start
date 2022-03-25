@@ -1,4 +1,6 @@
 #!/bin/bash
 set -e
 export LD_LIBRARY_PATH=${NB_PYTHON_PREFIX}/lib:${LD_LIBRARY_PATH}
+export OPEN_BABEL_LIBDIR="${NB_PYTHON_PREFIX}/lib/openbabel/3.1.0"
+export OPEN_BABEL_INCDIR="${NB_PYTHON_PREFIX}/include/openbabel3"
 exec "$@"
