@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -ex
+
+R -e 'BiocManager::install(ask = F)' && R -e 'BiocManager::install("ChemmineOB")'
