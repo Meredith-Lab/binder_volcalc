@@ -2,5 +2,4 @@
 
 set -ex
 
-LD_LIBRARY_PATH=${NB_PYTHON_PREFIX}/lib:${NB_PYTHON_PREFIX}/include:${NB_PYTHON_PREFIX}/include/openbabel3:${LD_LIBRARY_PATH}
 R -e 'BiocManager::install(ask = F)' && R -e 'BiocManager::install("ChemmineOB")'
