@@ -2,6 +2,7 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
+  - devtools
   - openbabel
   - r-base=4.0.5
   - bioconductor-keggrest
