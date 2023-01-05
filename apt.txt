@@ -1,1 +1,2 @@
 libeigen3-dev
+libharfbuzz-dev  libfribidi-dev
