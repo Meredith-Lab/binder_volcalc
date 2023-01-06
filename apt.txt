@@ -2,3 +2,4 @@ libeigen3-dev
 libharfbuzz-dev  libfribidi-dev
 libssl-dev
 libcurl4-openssl-dev
+librsvg2-dev
