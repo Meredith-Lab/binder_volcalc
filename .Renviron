@@ -1,4 +1,2 @@
 OPEN_BABEL_LIBDIR="/srv/conda/envs/notebook/lib/openbabel/3.1.0"
 OPEN_BABEL_INCDIR="/srv/conda/envs/notebook/include/openbabel3"
-INCLUDE_DIR="/usr/lib/x86_64-linux-gnu/pkgconfig"
-LIB_DIR="/usr/lib/x86_64-linux-gnu/pkgconfig"
